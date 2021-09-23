@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/ORCS_00000000
+http://purl.obolibrary.org/obo/orcs.owl
+https://creativecommons.org/licenses/unspecified
+term

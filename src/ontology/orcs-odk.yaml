@@ -1,0 +1,25 @@
+id: orcs
+title: Ontology for Representing CDM Semantics
+github_org: dillerm
+repo: ORCS
+import_group:
+  products:
+    - id: ro-core
+      mirror_from: 
+      module_type: mirror
+    - id: ro-el-constraints
+      mirror_from: 
+      module_type: mirror
+    - id: ro-annotations
+      mirror_from: 
+      module_type: mirror
+    - id: ro-generated-axioms
+      mirror_from: 
+      module_type: mirror
+    - id: ro-rohom
+      mirror_from: 
+      module_type: mirror
+    - id: ro-temporal-constraints
+      mirror_from: 
+      module_type: mirror
+    - id: omrse
