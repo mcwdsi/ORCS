@@ -4,17 +4,11 @@
 
 This ontology... YOUR DESCRIPTION HERE
 
-More information can be found at http://obofoundry.org/ontology/orcs
-
 ## Versions
 
 ### Stable release versions
 
-The latest version of the ontology can always be found at:
-
-http://purl.obolibrary.org/obo/orcs.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
+TODO
 
 ### Editors' version
 
