@@ -4320,12 +4320,10 @@ SubClassOf(obo:OGMS_0000099 obo:OGMS_0000097)
 
 # Class: obo:OGMS_0000100 (inpatient encounter)
 
-AnnotationAssertion(obo:IAO_0000115 obo:OGMS_0000100 "TODO"@en)
 AnnotationAssertion(obo:IAO_0000117 obo:OGMS_0000100 "Albert Goldfain")
 AnnotationAssertion(obo:IAO_0000119 obo:OGMS_0000100 "http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6")
 AnnotationAssertion(obo:IAO_0000232 obo:OGMS_0000100 "creation date: 2011-02-21T09:57:44Z")
 AnnotationAssertion(obo:IAO_0000412 obo:OGMS_0000100 "https://github.com/OGMS/ogms/releases/tag/v2019-04-30"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:OGMS_0000100 "inpatient encounter")
 SubClassOf(obo:OGMS_0000100 obo:OGMS_0000097)
 
 # Class: obo:OGMS_0000104 (diagnostic process)

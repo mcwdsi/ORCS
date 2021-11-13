@@ -1,0 +1,36 @@
+?cls	?replCls	?consCls
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49474>		
+<http://purl.obolibrary.org/obo/NCIT_C53489>		
+<http://purl.obolibrary.org/obo/ORCS_00000028>	"'PCORnet racial identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000030>	"'PCORnet American Indian or Alaska Native identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000031>	"'PCORnet Asian identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000032>	"'PCORnet black or African American identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000033>		
+<http://purl.obolibrary.org/obo/ORCS_00000034>		
+<http://purl.obolibrary.org/obo/ORCS_00000035>	"'PCORnet Native Hawaiian or other Pacific Islander identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000036>	"'PCORnet white identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000037>	"'PCORnet multiple race identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000038>	"'PCORnet Hispanic identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000039>	"'PCORnet non-Hispanic identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000040>	"'PCORnet ethnic identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000042>	"'admission process'\nhttp://purl.obolibrary.org/obo/OMRSE_00000201"	
+<http://purl.obolibrary.org/obo/ORCS_00000047>	"'PCORnet sexual orientation identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000049>		
+<http://purl.obolibrary.org/obo/ORCS_00000050>	"'sexual orientation identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000051>	"'PCORnet asexual identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000052>	"'PCORnet gay identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000053>	"'PCORnet lesbian identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000054>	"'PCORnet multiple sexual orientations identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000055>	"'PCORnet queer identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000056>	"'PCORnet questioning sexual orientation identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000057>	"'PCORnet something else sexual orientation identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000058>	"'PCORnet straight identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000059>	"'PCORnet gender identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000060>	"'PCORnet genderqueer/non-binary identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000061>	"'PCORnet man identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000062>	"'PCORnet multiple gender categories identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000063>	"'PCORnet something else gender identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000064>	"'PCORnet transgender female/trans woman/male-to-female identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000065>	"'PCORnet transgender male/trans man/female-to-male identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000066>	"'PCORnet woman identity information content entity'"@en	
+<http://purl.obolibrary.org/obo/ORCS_00000068>		

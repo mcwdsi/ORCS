@@ -1,3 +1,434 @@
 Level	Rule Name	Subject	Property	Value
-WARN	missing_definition	root node	IAO:0000115	
-INFO	missing_superclass	root node	rdfs:subClassOf	
+ERROR	duplicate_definition	directly activates	definition	p directly activates q if and only if p is immediately upstream of q and p is the realization of a function to increase the rate or activity of q
+ERROR	duplicate_definition	indirectly activates	definition	p directly activates q if and only if p is immediately upstream of q and p is the realization of a function to increase the rate or activity of q
+ERROR	duplicate_definition	PCORnet queer identity information content entity	definition	"A PCORnet sexual orientation identity information content entity that is about some person's identifying as having a sexual orientation referred to by the PCORnet CDM with the term \""queer.\""@en"
+ERROR	duplicate_definition	PCORnet questioning sexual orientation identity information content entity	definition	"A PCORnet sexual orientation identity information content entity that is about some person's identifying as having a sexual orientation referred to by the PCORnet CDM with the term \""queer.\""@en"
+ERROR	deprecated_property_reference	has active participant	owl:inverseOf	<http://purl.obolibrary.org/obo/RO_0002217>
+ERROR	missing_label	part of	label	
+ERROR	missing_label	has part	label	
+ERROR	missing_label	preceded by	label	
+ERROR	missing_label	precedes	label	
+ERROR	missing_label	data item	label	
+ERROR	missing_label	first order logic expression	label	
+ERROR	missing_label	inpatient encounter	label	
+ERROR	missing_label	OGMS:0000101	label	
+ERROR	missing_label	characteristic of	label	
+ERROR	missing_label	has participant	label	
+ERROR	missing_label	disposition of	label	
+ERROR	missing_label	derives from	label	
+ERROR	missing_label	derives into	label	
+ERROR	missing_label	temporal interpretation	label	
+ERROR	missing_label	2D boundary of	label	
+ERROR	missing_label	has 2D boundary	label	
+ERROR	missing_label	before or simultaneous with	label	
+ERROR	missing_label	simultaneous with	label	
+ERROR	missing_label	before	label	
+ERROR	missing_label	during which ends	label	
+ERROR	missing_label	ends after	label	
+ERROR	missing_label	during which starts	label	
+ERROR	missing_label	starts before	label	
+ERROR	missing_label	immediately precedes	label	
+ERROR	missing_label	starts during	label	
+ERROR	missing_label	happens during	label	
+ERROR	missing_label	ends during	label	
+ERROR	missing_label	temporally related to	label	
+ERROR	missing_label	starts	label	
+ERROR	missing_label	starts with	label	
+ERROR	missing_label	ends	label	
+ERROR	missing_label	ends with	label	
+ERROR	deprecated_class_reference	obsolete PCORnet racial identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000030>
+ERROR	deprecated_class_reference	obsolete PCORnet racial identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000031>
+ERROR	deprecated_class_reference	obsolete PCORnet racial identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000032>
+ERROR	deprecated_class_reference	obsolete PCORnet racial identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000035>
+ERROR	deprecated_class_reference	obsolete PCORnet racial identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000036>
+ERROR	deprecated_class_reference	obsolete PCORnet racial identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000037>
+ERROR	deprecated_class_reference	obsolete PCORnet sexual orientation identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000051>
+ERROR	deprecated_class_reference	obsolete PCORnet sexual orientation identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000052>
+ERROR	deprecated_class_reference	obsolete PCORnet sexual orientation identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000053>
+ERROR	deprecated_class_reference	obsolete PCORnet sexual orientation identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000054>
+ERROR	deprecated_class_reference	obsolete PCORnet sexual orientation identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000055>
+ERROR	deprecated_class_reference	obsolete PCORnet sexual orientation identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000056>
+ERROR	deprecated_class_reference	obsolete PCORnet sexual orientation identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000057>
+ERROR	deprecated_class_reference	obsolete PCORnet sexual orientation identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000058>
+ERROR	deprecated_class_reference	deprecated emergency department encounter	owl:disjointWith	<http://purl.obolibrary.org/obo/ORCS_00000048>
+ERROR	deprecated_class_reference	obsolete sexual orientation identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000047>
+ERROR	deprecated_class_reference	obsolete PCORnet gender identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000060>
+ERROR	deprecated_class_reference	obsolete PCORnet gender identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000061>
+ERROR	deprecated_class_reference	obsolete PCORnet gender identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000062>
+ERROR	deprecated_class_reference	obsolete PCORnet gender identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000063>
+ERROR	deprecated_class_reference	obsolete PCORnet gender identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000064>
+ERROR	deprecated_class_reference	obsolete PCORnet gender identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000065>
+ERROR	deprecated_class_reference	obsolete PCORnet gender identity datum	rdfs:subClassOf	<http://purl.obolibrary.org/obo/ORCS_00000066>
+ERROR	missing_ontology_description	http://purl.obolibrary.org/obo/orcs/	dc11:description	
+ERROR	duplicate_label	m1	label	John Doe's patient role@en
+ERROR	duplicate_label	John Doe's patient role	label	John Doe's patient role@en
+ERROR	duplicate_label	ETL process of John Doe’s ethnic identity datum	label	ETL process of John Doe’s ethnic identity datum@en
+ERROR	duplicate_label	ETL process of John Doe’s ethnic identity datum	label	ETL process of John Doe’s ethnic identity datum@en
+ERROR	multiple_definitions	has proper occurrent part	definition	<[copied from inverse property 'proper part of occurrent'] b proper_occurrent_part_of c =Def. b occurrent_part_of c & b and c are not identical. (axiom label in BFO2 Reference: [005-001])>
+ERROR	multiple_definitions	has proper occurrent part	definition	b has_proper_occurrent_part c = Def. c proper_occurrent_part_of b. [XXX-001@en
+ERROR	multiple_definitions	has temporal part	definition	<[copied from inverse property 'temporal part of'] b proper_temporal_part_of c =Def. b temporal_part_of c & not (b = c). (axiom label in BFO2 Reference: [116-001])>
+ERROR	multiple_definitions	has temporal part	definition	<[copied from inverse property 'temporal part of'] b temporal_part_of c =Def.b occurrent_part_of c & & for some temporal region t, b occupies_temporal_region t & for all occurrents d, t (if d occupies_temporal_region t & t? occurrent_part_of t then (d occurrent_part_of a iff d occurrent_part_of b)). (axiom label in BFO2 Reference: [078-003])>
+ERROR	multiple_definitions	proper part of occurrent	definition	[copied from inverse property 'has proper occurrent part'] b has_proper_occurrent_part c = Def. c proper_occurrent_part_of b. [XXX-001
+ERROR	multiple_definitions	proper part of occurrent	definition	<b proper_occurrent_part_of c =Def. b occurrent_part_of c & b and c are not identical. (axiom label in BFO2 Reference: [005-001])@en>
+ERROR	multiple_definitions	temporal part of	definition	<b proper_temporal_part_of c =Def. b temporal_part_of c & not (b = c). (axiom label in BFO2 Reference: [116-001])@en>
+ERROR	multiple_definitions	temporal part of	definition	<b temporal_part_of c =Def.b occurrent_part_of c & & for some temporal region t, b occupies_temporal_region t & for all occurrents d, t (if d occupies_temporal_region t & t? occurrent_part_of t then (d occurrent_part_of a iff d occurrent_part_of b)). (axiom label in BFO2 Reference: [078-003])@en>
+ERROR	multiple_definitions	mesoscopic physical object	definition	An environmental feature that is, or can be, contained and is predominantly composed of one or a few types of stuff.
+ERROR	multiple_definitions	mesoscopic physical object	definition	An object which is large enough to be visible to humans, but small enough that humans can handle the object (i.e. transport it, examine it, etc) in its entirety with little to no technological assistance.
+ERROR	missing_ontology_license	http://purl.obolibrary.org/obo/orcs/	dc:license	
+ERROR	multiple_labels	BFO OWL specification label	label	BFO OWL specification label
+ERROR	multiple_labels	BFO OWL specification label	label	BFO OWL specification label@en
+ERROR	multiple_labels	BFO CLIF specification label	label	BFO CLIF specification label
+ERROR	multiple_labels	BFO CLIF specification label	label	BFO CLIF specification label@en
+ERROR	multiple_labels	mesoscopic physical object	label	mesoscopic physical object
+ERROR	multiple_labels	mesoscopic physical object	label	physical object of mesoscopic geological size
+ERROR	multiple_labels	example of usage	label	example of usage
+ERROR	multiple_labels	example of usage	label	example of usage@en
+ERROR	multiple_labels	definition	label	definition
+ERROR	multiple_labels	definition	label	definition@en
+ERROR	multiple_labels	definition	label	textual definition
+ERROR	multiple_labels	editor note	label	editor note
+ERROR	multiple_labels	editor note	label	editor note@en
+ERROR	multiple_labels	term editor	label	definition editor
+ERROR	multiple_labels	term editor	label	definition editor@en
+ERROR	multiple_labels	term editor	label	term editor
+ERROR	multiple_labels	term editor	label	term editor@en
+ERROR	multiple_labels	definition source	label	definition source
+ERROR	multiple_labels	definition source	label	definition source@en
+ERROR	multiple_labels	curator note	label	curator note
+ERROR	multiple_labels	curator note	label	curator note@en
+ERROR	multiple_labels	curator note	label	curator notes
+ERROR	multiple_labels	elucidation	label	elucidation
+ERROR	multiple_labels	elucidation	label	elucidation@en
+ERROR	multiple_labels	has associated axiom(nl)	label	has associated axiom(nl)
+ERROR	multiple_labels	has associated axiom(nl)	label	has associated axiom(nl)@en
+ERROR	multiple_labels	has associated axiom(fol)	label	has associated axiom(fol)
+ERROR	multiple_labels	has associated axiom(fol)	label	has associated axiom(fol)@en
+ERROR	multiple_labels	m1	label	John Doe's patient role@en
+ERROR	multiple_labels	m1	label	m1@en
+WARN	annotation_whitespace	has occurrent part	has associated axiom(fol)	<(iff (hasOccurrentPart a b) (occurrentPartOf b a)) // axiom label in BFO2 CLIF: [007-001] >
+WARN	annotation_whitespace	part of occurrent	has associated axiom(fol)	<(forall (x y t) (if (and (occurrentPartOf x y t) (not (= x y))) (exists (z) (and (occurrentPartOf z y t) (not (exists (w) (and (occurrentPartOf w x t) (occurrentPartOf w z t)))))))) // axiom label in BFO2 CLIF: [124-001] >
+WARN	annotation_whitespace	part of occurrent	has associated axiom(fol)	<(forall (x y t) (if (and (occurrentPartOf x y t) (occurrentPartOf y x t)) (= x y))) // axiom label in BFO2 CLIF: [123-001] >
+WARN	annotation_whitespace	part of occurrent	has associated axiom(fol)	<(forall (x y t) (if (exists (v) (and (occurrentPartOf v x t) (occurrentPartOf v y t))) (exists (z) (forall (u w) (iff (iff (occurrentPartOf w u t) (and (occurrentPartOf w x t) (occurrentPartOf w y t))) (= z u)))))) // axiom label in BFO2 CLIF: [125-001] >
+WARN	annotation_whitespace	part of occurrent	has associated axiom(fol)	<(forall (x y z) (if (and (occurrentPartOf x y) (occurrentPartOf y z)) (occurrentPartOf x z))) // axiom label in BFO2 CLIF: [112-001] >
+WARN	annotation_whitespace	part of occurrent	has associated axiom(fol)	<(forall (x) (if (Occurrent x) (occurrentPartOf x x))) // axiom label in BFO2 CLIF: [113-002] >
+WARN	annotation_whitespace	proper part of occurrent	has associated axiom(fol)	<(iff (properOccurrentPartOf a b) (and (occurrentPartOf a b) (not (= a b)))) // axiom label in BFO2 CLIF: [005-001] >
+WARN	annotation_whitespace	temporal part of	has associated axiom(fol)	<(forall (x y) (if (properTemporalPartOf x y) (exists (z) (and (properTemporalPartOf z y) (not (exists (w) (and (temporalPartOf w x) (temporalPartOf w z)))))))) // axiom label in BFO2 CLIF: [117-002] >
+WARN	annotation_whitespace	temporal part of	has associated axiom(fol)	<(iff (properTemporalPartOf a b) (and (temporalPartOf a b) (not (= a b)))) // axiom label in BFO2 CLIF: [116-001] >
+WARN	annotation_whitespace	temporal part of	has associated axiom(fol)	<(iff (temporalPartOf a b) (and (occurrentPartOf a b) (exists (t) (and (TemporalRegion t) (occupiesSpatioTemporalRegion a t))) (forall (c t_1) (if (and (Occurrent c) (occupiesSpatioTemporalRegion c t_1) (occurrentPartOf t_1 r)) (iff (occurrentPartOf c a) (occurrentPartOf c b)))))) // axiom label in BFO2 CLIF: [078-003] >
+WARN	annotation_whitespace	history of	skos:example	This life is the history of this organism. @en
+WARN	annotation_whitespace	has history	skos:example	This organism has history this life. @en
+WARN	annotation_whitespace	temporal interval	skos:example	The year 2018. @en
+WARN	annotation_whitespace	temporal interval	skos:scopeNote	A one-dimensional temporal region can include as parts not only temporal intervals but also temporal instants separated from other parts by gaps. @en
+WARN	annotation_whitespace	health care process	curator note	<creation date: 2011-02-21T09:57:44Zeditor date: 2017-04-18>
+WARN	annotation_whitespace	contained in	editor note	<Intended meaning:domain: material entityrange: spatial region or site (immaterial continuant) @en>
+WARN	annotation_whitespace	spatially disjoint from	editor note	There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. @en
+WARN	annotation_whitespace	capable of	definition	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 
+WARN	annotation_whitespace	contributes to	curator note	In the context of the Gene Ontology, contributes_to may be used only with classes from the molecular function ontology. 
+WARN	annotation_whitespace	results in transport along	definition	Holds between p and l when p is a transportation or localization process and the outcome of this process is to move c from one location to another, and the route taken by c follows a path that is aligned_with l 
+WARN	annotation_whitespace	obsolete has direct output	definition	p has direct input c iff c is a participanti n p, c is present at the end of p, and c is not present at the beginning of c. 
+WARN	annotation_whitespace	always present in taxon	editor note	This is a very strong relation. Often we will not have enough evidence to know for sure that there are no species within a lineage that lack the structure - loss is common in evolution. However, there are some statements we can make with confidence - no vertebrate lineage could persist without a brain or a heart. All primates are limbed. 
+WARN	annotation_whitespace	sequentially related to	definition	A relation that holds between two entities that have the property of being sequences or having sequences. 
+WARN	annotation_whitespace	temporal logical macro assertion on a class	curator note	This properties were created originally for the annotation of developmental or life cycle stages, such as for example Carnegie Stage 20 in humans. 
+WARN	annotation_whitespace	blood	oboInOwl:source	<DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) >
+WARN	duplicate_exact_synonym	capable of inhibiting or preventing pathological process	alternative term	treats
+WARN	duplicate_exact_synonym	is substance that treats	alternative term	treats
+WARN	missing_definition	name of temporal region	definition	
+WARN	missing_definition	part of	definition	
+WARN	missing_definition	has part	definition	
+WARN	missing_definition	preceded by	definition	
+WARN	missing_definition	precedes	definition	
+WARN	missing_definition	BFO OWL specification label	definition	
+WARN	missing_definition	BFO CLIF specification label	definition	
+WARN	missing_definition	history of	definition	
+WARN	missing_definition	has history	definition	
+WARN	missing_definition	temporal interval	definition	
+WARN	missing_definition	temporal instant	definition	
+WARN	missing_definition	anthropogenic abiotic mesoscopic feature	definition	
+WARN	missing_definition	abiotic mesoscopic physical object	definition	
+WARN	missing_definition	data item	definition	
+WARN	missing_definition	example of usage	definition	
+WARN	missing_definition	definition	definition	
+WARN	missing_definition	editor note	definition	
+WARN	missing_definition	term editor	definition	
+WARN	missing_definition	alternative term	definition	
+WARN	missing_definition	definition source	definition	
+WARN	missing_definition	curator note	definition	
+WARN	missing_definition	imported from	definition	
+WARN	missing_definition	elucidation	definition	
+WARN	missing_definition	has associated axiom(nl)	definition	
+WARN	missing_definition	has associated axiom(fol)	definition	
+WARN	missing_definition	inpatient encounter	definition	
+WARN	missing_definition	PCORnet racial identification process	definition	
+WARN	missing_definition	phenotypic sex	definition	
+WARN	missing_definition	characteristic of	definition	
+WARN	missing_definition	has participant	definition	
+WARN	missing_definition	derives from	definition	
+WARN	missing_definition	derives into	definition	
+WARN	missing_definition	contained in	definition	
+WARN	missing_definition	contains	definition	
+WARN	missing_definition	2D boundary of	definition	
+WARN	missing_definition	has 2D boundary	definition	
+WARN	missing_definition	has necessary component activity	definition	
+WARN	missing_definition	has component activity	definition	
+WARN	missing_definition	directly regulated by	definition	
+WARN	missing_definition	before or simultaneous with	definition	
+WARN	missing_definition	simultaneous with	definition	
+WARN	missing_definition	before	definition	
+WARN	missing_definition	during which ends	definition	
+WARN	missing_definition	encompasses	definition	
+WARN	missing_definition	ends after	definition	
+WARN	missing_definition	during which starts	definition	
+WARN	missing_definition	starts before	definition	
+WARN	missing_definition	immediately precedes	definition	
+WARN	missing_definition	starts during	definition	
+WARN	missing_definition	happens during	definition	
+WARN	missing_definition	ends during	definition	
+WARN	missing_definition	present_in_taxon	definition	
+WARN	missing_definition	temporally related to	definition	
+WARN	missing_definition	starts	definition	
+WARN	missing_definition	starts with	definition	
+WARN	missing_definition	ends	definition	
+WARN	missing_definition	ends with	definition	
+WARN	missing_definition	causally upstream of, positive effect	definition	
+WARN	missing_definition	causally upstream of, negative effect	definition	
+WARN	missing_definition	contributes to	definition	
+WARN	missing_definition	enables	definition	
+WARN	missing_definition	results in transport to from or in	definition	
+WARN	missing_definition	formed as result of	definition	
+WARN	missing_definition	has dendrite location	definition	
+WARN	missing_definition	immediately causally downstream of	definition	
+WARN	missing_definition	directly inhibits	definition	
+WARN	missing_definition	indirectly inhibits	definition	
+WARN	missing_definition	logical macro assertion on an annotation property	definition	
+WARN	missing_definition	differs in	definition	
+WARN	missing_definition	differs in attribute of	definition	
+WARN	missing_definition	differs in attribute	definition	
+WARN	missing_definition	partner in	definition	
+WARN	missing_definition	subject participant in	definition	
+WARN	missing_definition	target participant in	definition	
+WARN	missing_definition	helper property (not for use in curation)	definition	
+WARN	missing_definition	is symbiosis	definition	
+WARN	missing_definition	is commensalism	definition	
+WARN	missing_definition	is mutualism	definition	
+WARN	missing_definition	is parasitism	definition	
+WARN	missing_definition	is kinase activity	definition	
+WARN	missing_definition	is ubiquitination	definition	
+WARN	missing_definition	inherited annotation property	definition	
+WARN	missing_definition	receives input from	definition	
+WARN	missing_definition	sends output to	definition	
+WARN	missing_definition	depends on	definition	
+WARN	missing_definition	causal relation between entities	definition	
+WARN	missing_definition	temporal logical macro assertion on a class	definition	
+WARN	missing_definition	measurement property has unit	definition	
+WARN	missing_definition	has start time value	definition	
+WARN	missing_definition	has end time value	definition	
+WARN	missing_definition	start, weeks post birth	definition	
+WARN	missing_definition	end, weeks post birth	definition	
+WARN	missing_definition	causally influenced by	definition	
+WARN	missing_definition	interaction relation helper property	definition	
+WARN	missing_definition	molecular interaction relation helper property	definition	
+WARN	missing_definition	logical macro assertion on an axiom	definition	
+WARN	missing_definition	evidential logical macro assertion on an axiom	definition	
+WARN	missing_definition	related via evidence or inference to	definition	
+WARN	missing_definition	condition has genetic basis in	definition	
+WARN	missing_definition	has material basis in gain of function germline mutation in	definition	
+WARN	missing_definition	has material basis in loss of function germline mutation in	definition	
+WARN	missing_definition	has material basis in germline mutation in	definition	
+WARN	missing_definition	has material basis in somatic mutation in	definition	
+WARN	missing_definition	has major susceptibility factor	definition	
+WARN	missing_definition	has partial material basis in germline mutation in	definition	
+WARN	missing_definition	is genetic basis for condition	definition	
+WARN	missing_definition	realizable has basis in	definition	
+WARN	missing_definition	is basis for realizable	definition	
+WARN	missing_definition	disease has basis in	definition	
+WARN	missing_definition	acts upstream of or within, positive effect	definition	
+WARN	missing_definition	acts upstream of or within, negative effect	definition	
+WARN	missing_definition	causally upstream of or within, negative effect	definition	
+WARN	missing_definition	causally upstream of or within, positive effect	definition	
+WARN	missing_definition	is positive form of	definition	
+WARN	missing_definition	is negative form of	definition	
+WARN	missing_definition	neck of organ	definition	
+WARN	missing_definition	subdivision of tube	definition	
+WARN	missing_definition	zone of organ	definition	
+WARN	missing_definition	external_definition	definition	
+WARN	missing_definition	axiom_lost_from_external_ontology	definition	
+WARN	missing_definition	homology_notes	definition	
+WARN	missing_definition	has_relational_adjective	definition	
+WARN	missing_definition	taxon_notes	definition	
+WARN	missing_definition	function_notes	definition	
+WARN	missing_definition	structure_notes	definition	
+WARN	missing_definition	development_notes	definition	
+WARN	missing_definition	external_ontology_notes	definition	
+WARN	missing_definition	fma_set_term	definition	
+WARN	missing_definition	Unique Apollo Label	definition	
+WARN	missing_definition	contributor	definition	
+WARN	missing_definition	subset_property	definition	
+WARN	missing_definition	has_alternative_id	definition	
+WARN	missing_definition	has_broad_synonym	definition	
+WARN	missing_definition	database_cross_reference	definition	
+WARN	missing_definition	has_exact_synonym	definition	
+WARN	missing_definition	has_narrow_synonym	definition	
+WARN	missing_definition	has_obo_namespace	definition	
+WARN	missing_definition	has_related_synonym	definition	
+WARN	missing_definition	has_scope	definition	
+WARN	missing_definition	has_synonym_type	definition	
+WARN	missing_definition	in_subset	definition	
+WARN	missing_definition	depicted by	definition	
+WARN	duplicate_scoped_synonym	endocrine gland	has_exact_synonym	ductless gland
+WARN	duplicate_scoped_synonym	endocrine gland	has_related_synonym	ductless gland
+WARN	duplicate_scoped_synonym	adrenal gland	has_exact_synonym	glandula suprarenalis
+WARN	duplicate_scoped_synonym	adrenal gland	has_related_synonym	glandula suprarenalis
+WARN	missing_obsolete_label	deprecated emergency department encounter	label	deprecated emergency department encounter@en
+WARN	missing_obsolete_label	DEPRECATED obsolete code set	label	DEPRECATED obsolete code set
+INFO	lowercase_definition	exists at	elucidation	<b exists_at t means: b is an entity which exists at some temporal region t. (axiom label in BFO2 Reference: [118-002])@en>
+INFO	lowercase_definition	has occurrent part	definition	<b has_occurrent_part c = Def. c occurrent_part_of b. (axiom label in BFO2 Reference: [007-001])@en>
+INFO	lowercase_definition	has occurrent part	elucidation	<[copied from inverse property 'part of occurrent'] b occurrent_part_of c =Def. b is a part of c & b and c are occurrents. (axiom label in BFO2 Reference: [003-002])>
+INFO	lowercase_definition	has proper occurrent part	definition	<[copied from inverse property 'proper part of occurrent'] b proper_occurrent_part_of c =Def. b occurrent_part_of c & b and c are not identical. (axiom label in BFO2 Reference: [005-001])>
+INFO	lowercase_definition	has proper occurrent part	definition	b has_proper_occurrent_part c = Def. c proper_occurrent_part_of b. [XXX-001@en
+INFO	lowercase_definition	has temporal part	definition	<[copied from inverse property 'temporal part of'] b proper_temporal_part_of c =Def. b temporal_part_of c & not (b = c). (axiom label in BFO2 Reference: [116-001])>
+INFO	lowercase_definition	has temporal part	definition	<[copied from inverse property 'temporal part of'] b temporal_part_of c =Def.b occurrent_part_of c & & for some temporal region t, b occupies_temporal_region t & for all occurrents d, t (if d occupies_temporal_region t & t? occurrent_part_of t then (d occurrent_part_of a iff d occurrent_part_of b)). (axiom label in BFO2 Reference: [078-003])>
+INFO	lowercase_definition	part of occurrent	definition	<[copied from inverse property 'has occurrent part'] b has_occurrent_part c = Def. c occurrent_part_of b. (axiom label in BFO2 Reference: [007-001])>
+INFO	lowercase_definition	part of occurrent	elucidation	<b occurrent_part_of c =Def. b is a part of c & b and c are occurrents. (axiom label in BFO2 Reference: [003-002])@en>
+INFO	lowercase_definition	proper part of occurrent	definition	[copied from inverse property 'has proper occurrent part'] b has_proper_occurrent_part c = Def. c proper_occurrent_part_of b. [XXX-001
+INFO	lowercase_definition	proper part of occurrent	definition	<b proper_occurrent_part_of c =Def. b occurrent_part_of c & b and c are not identical. (axiom label in BFO2 Reference: [005-001])@en>
+INFO	lowercase_definition	temporal part of	definition	<b proper_temporal_part_of c =Def. b temporal_part_of c & not (b = c). (axiom label in BFO2 Reference: [116-001])@en>
+INFO	lowercase_definition	temporal part of	definition	<b temporal_part_of c =Def.b occurrent_part_of c & & for some temporal region t, b occupies_temporal_region t & for all occurrents d, t (if d occupies_temporal_region t & t? occurrent_part_of t then (d occurrent_part_of a iff d occurrent_part_of b)). (axiom label in BFO2 Reference: [078-003])@en>
+INFO	lowercase_definition	occupies temporal region	elucidation	<p occupies_temporal_region t. This is a primitive relation between an occurrent p and the temporal region t upon which the spatiotemporal region p occupies_spatiotemporal_region projects. (axiom label in BFO2 Reference: [132-001])@en>
+INFO	lowercase_definition	has temporal occupant	elucidation	<[copied from inverse property 'occupies temporal region'] p occupies_temporal_region t. This is a primitive relation between an occurrent p and the temporal region t upon which the spatiotemporal region p occupies_spatiotemporal_region projects. (axiom label in BFO2 Reference: [132-001])>
+INFO	lowercase_definition	during which exists	elucidation	<[copied from inverse property 'exists at'] b exists_at t means: b is an entity which exists at some temporal region t. (axiom label in BFO2 Reference: [118-002])>
+INFO	lowercase_definition	clinical data item	definition	a data item that is about a patient and is the specified output of a health care process assay or diagnostic process
+INFO	lowercase_definition	admitting diagnosis	definition	a diagnosis that is about some patient and that is the specified output of a diagnostic process that occurs before or during the admission of that patient@en
+INFO	lowercase_definition	obsolete admission process	definition	a social act in which a patient is registered with a health care provider for the purposes of recieving care in an inpatient encounter@en
+INFO	lowercase_definition	discharge diagnosis	definition	a diagnosis that is about some patient and that is the specified output of a diagnostic process that occurs before or simultaneously with the discharge of that patient@en
+INFO	lowercase_definition	final diagnosis	definition	a diagnosis that is about some patient and that is the specified output of a diagnostic process that occurs during an outpatient encounter@en
+INFO	lowercase_definition	interim diagnosis	definition	a diagnosis that is about some patient and that is the specified output of a diagnostic process that occurs during an inpatient encounter, after admission, and before discharge of that patient@en
+INFO	lowercase_definition	disposition of	definition	inverse of has disposition
+INFO	lowercase_definition	regulates in other organism	definition	<x 'regulates in other organism' y if and only if: (x is the realization of a function to exert an effect on the frequency, rate or extent of y) AND (the agents of x are produced by organism o1 and the agents of y are produced by organism o2).>
+INFO	lowercase_definition	has component process	definition	w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
+INFO	lowercase_definition	overlaps	definition	x overlaps y if and only if there exists some z such that x has part z and z part of y
+INFO	lowercase_definition	partially overlaps	definition	x partially overlaps y iff there exists some z such that z is part of x and z is part of y, and it is also the case that neither x is part of y or y is part of x
+INFO	lowercase_definition	never in taxon	definition	"x never in taxon T if and only if T is a class, and x does not instantiate the class expression \""in taxon some T\"". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL."
+INFO	lowercase_definition	connected to	definition	a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b
+INFO	lowercase_definition	connects	definition	c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system.
+INFO	lowercase_definition	has component	definition	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
+INFO	lowercase_definition	phenotype of	definition	inverse of has phenotype
+INFO	lowercase_definition	has gene product	definition	<x has gene product y if and only if x is a gene (SO:0000704) that participates in some gene expression process (GO:0010467) where the output of that process is either y or something that is ribosomally translated from y>
+INFO	lowercase_definition	regulates	definition	<process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.>
+INFO	lowercase_definition	has prototype	definition	"x has prototype y if and only if x is an instance of C and y is a prototypical instance of C. For example, every instance of heart, both normal and abnormal is related by the has prototype relation to some instance of a \""canonical\"" heart, which participates in blood circulation."
+INFO	lowercase_definition	capable of part of	definition	c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.
+INFO	lowercase_definition	obsolete actively participates in	definition	x actively participates in y if and only if x participates in y and x realizes some active role
+INFO	lowercase_definition	has active participant	definition	x has participant y if and only if x realizes some active role that inheres in y
+INFO	lowercase_definition	surrounded by	definition	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x
+INFO	lowercase_definition	adjacent to	definition	x adjacent to y if and only if x and y share a boundary.
+INFO	lowercase_definition	surrounds	definition	inverse of surrounded by
+INFO	lowercase_definition	has start location	definition	x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y
+INFO	lowercase_definition	has end location	definition	x 'has end location' y if and only if there exists some process z such that x 'ends with' z and z 'occurs in' y
+INFO	lowercase_definition	has input	definition	<p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.>
+INFO	lowercase_definition	has output	definition	p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.
+INFO	lowercase_definition	active ingredient in'	definition	inverse of has active ingredient
+INFO	lowercase_definition	connecting branch of	definition	b connecting-branch-of s iff b is connected to s, and there exists some tree-like structure t such that the mereological sum of b plus s is either the same as t or a branching-part-of t.
+INFO	lowercase_definition	has connecting branch	definition	inverse of connecting branch of
+INFO	lowercase_definition	acts upstream of	definition	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.
+INFO	lowercase_definition	acts upstream of or within	definition	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.
+INFO	lowercase_definition	inheres in part of	definition	q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.
+INFO	lowercase_definition	colocalizes with	definition	a colocalizes_with b if and only if  a is transiently or peripherally associated with b[GO].
+INFO	lowercase_definition	part of structure that is capable of	definition	this relation holds between c and p when c is part of some c', and c' is capable of p.
+INFO	lowercase_definition	involved in	definition	c involved_in p if and only if c enables some process p', and p' is part of p
+INFO	lowercase_definition	regulates levels of	definition	<p regulates levels of c if p regulates some amount (PATO:0000070) of c>
+INFO	lowercase_definition	enabled by	definition	inverse of enables
+INFO	lowercase_definition	regulated by	definition	inverse of regulates
+INFO	lowercase_definition	negatively regulated by	definition	inverse of negatively regulates
+INFO	lowercase_definition	positively regulated by	definition	inverse of positively regulates
+INFO	lowercase_definition	input of	definition	inverse of has input
+INFO	lowercase_definition	output of	definition	inverse of has output
+INFO	lowercase_definition	tributary of	definition	x tributary_of y if and only if x a channel for the flow of a substance into y, where y is larger than x. If x and y are hydrographic features, then y is the main stem of a river, or a lake or bay, but not the sea or ocean. If x and y are anatomical, then y is a vein.
+INFO	lowercase_definition	distributary of	definition	x distributary_of y if and only if x is capable of channeling the flow of a substance to y, where y channels less of the substance than x
+INFO	lowercase_definition	anabranch of	definition	x anabranch_of y if x is a distributary of y (i.e. it channels a from a larger flow from y) and x ultimately channels the flow back into y.
+INFO	lowercase_definition	spatially coextensive with	definition	x spatially_coextensive_with y if and inly if x and y have the same location
+INFO	lowercase_definition	branching part of	definition	x is a branching part of y if and only if x is part of y and x is connected directly or indirectly to the main stem of y
+INFO	lowercase_definition	main stem of	definition	x main_stem_of y if y is a branching structure and x is a channel that traces a linear path through y, such that x has higher capacity than any other such path.
+INFO	lowercase_definition	proper distributary of	definition	x proper_distributary_of y iff x distributary_of y and x does not flow back into y
+INFO	lowercase_definition	proper tributary of	definition	x proper_tributary_of y iff x tributary_of y and x does not originate from y
+INFO	lowercase_definition	has direct input	definition	p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p.
+INFO	lowercase_definition	obsolete has direct output	definition	p has direct input c iff c is a participanti n p, c is present at the end of p, and c is not present at the beginning of c. 
+INFO	lowercase_definition	causally downstream of	definition	inverse of upstream of
+INFO	lowercase_definition	directly activates	definition	p directly activates q if and only if p is immediately upstream of q and p is the realization of a function to increase the rate or activity of q
+INFO	lowercase_definition	indirectly activates	definition	p directly activates q if and only if p is immediately upstream of q and p is the realization of a function to increase the rate or activity of q
+INFO	lowercase_definition	causally upstream of	definition	p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain
+INFO	lowercase_definition	immediately causally upstream of	definition	p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q.
+INFO	lowercase_definition	directly provides input for	definition	p1 directly provides input for p2 iff there exists some c such that p1 has_output c and p2 has_input c
+INFO	lowercase_definition	transitively provides input for	definition	transitive form of directly_provides_input_for
+INFO	lowercase_definition	causally upstream of or within	definition	p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q.
+INFO	lowercase_definition	causally downstream of or within	definition	inverse of causally upstream of or within
+INFO	lowercase_definition	involved in regulation of	definition	c involved in regulation of p if c is involved in some p' and p' regulates some p
+INFO	lowercase_definition	involved in positive regulation of	definition	c involved in regulation of p if c is involved in some p' and p' positively regulates some p
+INFO	lowercase_definition	involved in negative regulation of	definition	c involved in regulation of p if c is involved in some p' and p' negatively regulates some p
+INFO	lowercase_definition	involved in or involved in regulation of	definition	c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p
+INFO	lowercase_definition	is active in	definition	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.
+INFO	lowercase_definition	contributes to morphology of	definition	<p contributes to morphology of w if and only if a change in the morphology of p entails a change in the morphology of w. Examples: every skull contributes to morphology of the head which it is a part of. Counter-example: nuclei do not generally contribute to the morphology of the cell they are part of, as they are buffered by cytoplasm.>
+INFO	lowercase_definition	composed primarily of	definition	x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.
+INFO	lowercase_definition	has part that occurs in	definition	p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c.
+INFO	lowercase_definition	causal relation between processes	definition	p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.
+INFO	lowercase_definition	towards	definition	q towards e2 if and only if q is a relational quality such that q inheres-in some e, and e != e2 and q is dependent on e2
+INFO	lowercase_definition	has intermediate	definition	p has intermediate c if and only if p has parts p1, p2 and p1 has output c, and p2 has input c
+INFO	lowercase_definition	determined by	definition	s determined by f if and only if s is a type of system, and f is a material entity that is part of s, such that f exerts a strong causal influence on the functioning of s, and the removal of f would cause the collapse of s.
+INFO	lowercase_definition	determines	definition	inverse of determined by
+INFO	lowercase_definition	determined by part of	definition	s 'determined by part of' w if and only if there exists some f such that (1) s 'determined by' f and (2) f part_of w, or f=w.
+INFO	lowercase_definition	transcribed from	definition	x is transcribed from y if and only if x is synthesized from template y
+INFO	lowercase_definition	sequentially adjacent to	definition	x is sequentially adjacent to y iff x and y do not overlap and if there are no base units intervening between x and y
+INFO	lowercase_definition	has start sequence	definition	x has start sequence y if the start of x is identical to the start of y, and x has y as a subsequence
+INFO	lowercase_definition	is start sequence of	definition	inverse of has start sequence
+INFO	lowercase_definition	has end sequence	definition	x has end sequence y if the end of x is identical to the end of y, and x has y as a subsequence
+INFO	lowercase_definition	is end sequence of	definition	inverse of has end sequence
+INFO	lowercase_definition	is consecutive sequence of	definition	x is a consecutive sequence of y iff x has subsequence y, and all the parts of x are made of zero or more repetitions of y or sequences as the same type as y.
+INFO	lowercase_definition	is sequentially aligned with	definition	x is sequentially aligned with if a significant portion bases of x and y correspond in terms of their base type and their relative ordering
+INFO	lowercase_definition	bounds sequence of	definition	x bounds the sequence of y iff the upstream-most part of x is upstream of or coincident with the upstream-most part of y, and the downstream-most part of x is downstream of or coincident with the downstream-most part of y
+INFO	lowercase_definition	is bound by sequence of	definition	inverse of bounds sequence of
+INFO	lowercase_definition	has subsequence	definition	x has subsequence y iff all of the sequence parts of x are sequence parts of y
+INFO	lowercase_definition	is subsequence of	definition	inverse of has subsequence
+INFO	lowercase_definition	overlaps sequence of	definition	x overlaps the sequence of x if and only if x has a subsequence z and z is a subsequence of y.
+INFO	lowercase_definition	does not overlap sequence of	definition	x does not overlaps the sequence of x if and only if there is no z such that x has a subsequence z and z is a subsequence of y.
+INFO	lowercase_definition	is upstream of sequence of	definition	inverse of downstream of sequence of
+INFO	lowercase_definition	is downstream of sequence of	definition	x is downstream of the sequence of y iff either (1) x and y have sequence units, and all units of x are downstream of all units of y, or (2) x and y are sequence units, and x is either immediately downstream of y, or transitively downstream of y.
+INFO	lowercase_definition	is immediately downstream of sequence of	definition	<x is immediately downstream of the sequence of y iff either (1) x and y have sequence units, and all units of x are downstream of all units of y, and x is sequentially adjacent to y, or (2) x and y are sequence units, in which case the immediately downstream relation is primitive and defined by context: for DNA bases, y would be adjacent and 5' to y>
+INFO	lowercase_definition	is immediately upstream of sequence of	definition	inverse of immediately downstream of
+INFO	lowercase_definition	has evidence	definition	inverse of is evidence for
+INFO	lowercase_definition	has branching part	definition	inverse of branching part of
+INFO	lowercase_definition	conduit for	definition	x is a conduit for y iff y overlaps through the lumen_of of x, and y has parts on either side of the lumen of x.
+INFO	lowercase_definition	lumen of	definition	x lumen_of y iff x is the space or substance that is part of y and does not cross any of the inner membranes or boundaries of y that is maximal with respect to the volume of the convex hull.
+INFO	lowercase_definition	luminal space of	definition	s is luminal space of x iff s is lumen_of x and s is an immaterial entity
+INFO	lowercase_definition	is direct form of	definition	<relation p is the direct form of relation q iff p is a subPropertyOf q, p does not have the Transitive characteristic, q does have the Transitive characteristic, and for all x, y: x q y -> exists z1, z2, ..., zn such that x p z1 ... z2n y>
+INFO	lowercase_definition	is indirect form of	definition	<relation p is the indirect form of relation q iff p is a subPropertyOf q, and there exists some p' such that p' is the direct form of q, p' o p' -> p, and forall x,y : x q y -> either (1) x p y or (2) x p' y>
+INFO	lowercase_definition	has part structure that is capable of	definition	s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p
+INFO	lowercase_definition	results in breakdown of	definition	p results in breakdown of c if and only if the execution of p leads to c no longer being present at the end of p
+INFO	lowercase_definition	results in catabolism of	definition	p results in catabolism of c if and only if p is a catabolic process, and the execution of p results in c being broken into smaller parts with energy being released.
+INFO	lowercase_definition	is approximately equivalent to	definition	x is approximately equivalent to y if it is the case that x is equivalent, identical or near-equivalent to y
+INFO	lowercase_definition	is opposite of	definition	x is the opposite of y if there exists some distance metric M, and there exists no z such as M(x,z) <= M(x,y) or M(y,z) <= M(y,x).
+INFO	lowercase_definition	is indistinguishable from	definition	x is indistinguishable from y if there exists some distance metric M, and there exists no z such as M(x,z) <= M(x,y) or M(y,z) <= M(y,x).
+INFO	lowercase_definition	is substance that treats	definition	c is a substance that treats d if c is a material entity (such as a small molecule or compound) and d is a pathological process, phenotype or disease, and c is capable of some activity that negative regulates or decreases the magnitude of d.
+INFO	lowercase_definition	is marker for	definition	c is marker for d iff the presence or occurrence of d is correlated with the presence of occurrence of c, and the observation of c is used to infer the presence or occurrence of d. Note that this does not imply that c and d are in a direct causal relationship, as it may be the case that there is a third entity e that stands in a direct causal relationship with c and d.
+INFO	lowercase_definition	is representative IRI for equivalence set	definition	"this property relates an IRI to the xsd boolean value \""True\"" if the IRI is intended to be the representative IRI for a collection of classes that are mutually equivalent."
+INFO	lowercase_definition	produces	definition	<a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix.>
+INFO	lowercase_definition	produced by	definition	a produced_by b iff some process that occurs_in b has_output a.
+INFO	lowercase_definition	has primary input or output	definition	p 'has primary input ot output' c iff either (a) p 'has primary input' c or (b) p 'has primary output' c.
+INFO	lowercase_definition	has primary output	definition	p has primary output c if (a) p has output c and (b) the goal of process is to modify, produce, or transform c.
+INFO	lowercase_definition	has primary input	definition	p has primary input c if (a) p has input c and (b) the goal of process is to modify, consume, or transform c.
+INFO	lowercase_definition	acts upstream of, positive effect	definition	c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive
+INFO	lowercase_definition	acts upstream of, negative effect	definition	c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative
+INFO	lowercase_definition	has substance added	definition	"\""has substance added\"" is a relation existing between a (physical) entity and a substance in which the entity has had the substance added to it at some point in time.@en"
+INFO	lowercase_definition	has substance removed	definition	"\""has substance removed\"" is a relation existing between two physical entities in which the first entity has had the second entity (a substance) removed from it at some point in time.@en"
+INFO	lowercase_definition	immersed in	definition	"\""immersed in\"" is a relation between a (physical) entity and a fluid substance in which the entity is wholely or substantially surrounded by the substance.@en"
+INFO	lowercase_definition	has primary substance added	definition	'has primary substance added' indicates that an entity has had the given substance added to it in a proportion greater than any other added substance.@en
+INFO	lowercase_definition	realized in response to	definition	r 'realized in response to' s iff, r is a realizable (e.g. a plant trait such as responsivity to drought), s is an environmental stimulus (a process), and s directly causes the realization of r.
+INFO	lowercase_definition	is carrier of	definition	*b* is carrier of *c* at time *t* if and only if *c* *g-depends on* *b* at *t*
+INFO	lowercase_definition	feather	definition	one of the epidermal growths that form the distinctive outer covering, or plumage, on birds. Feathers are formed in tiny follicles in the epidermis, or outer skin layer, that produce keratin proteins.
+INFO	lowercase_definition	serous membrane	definition	multi-tissue structure that is comprised of a secretory epithelial layer (mesothelium) and a connective tissue layer.
+INFO	lowercase_definition	urethra	definition	the fibromuscular tubular canal through which urine is discharged from the bladder to the exterior via the external urinary meatus; in males, the urethra is joined by the ejaculatory ducts and serves as a passageway for semen during ejaculation, as well as a canal for urine during voiding; in females, the urethra is shorter and emerges above the vaginal opening
+INFO	lowercase_definition	ovary	definition	the gonad of a female organism which contains germ cells
+INFO	lowercase_definition	uterus	definition	the female muscular organ of gestation in which the developing embryo or fetus is nourished until birth
+INFO	lowercase_definition	rectum	definition	the terminal portion of the intestinal tube, terminating with the anus
+INFO	lowercase_definition	bile	definition	vital aqueous secretion of the liver that is formed by hepatocytes and modified down stream by absorptive and secretory properties of the bile duct epithelium.
+INFO	lowercase_definition	spleen	definition	the organ that functions to filter blood and to store red corpuscles and platelets
+INFO	lowercase_definition	bone marrow	definition	the soft tissue that fills the cavities of bones
+INFO	lowercase_definition	gland	definition	an organ that functions as a secretory or excretory organ
+INFO	lowercase_definition	umbilical cord blood	definition	blood that remains in the placenta and in the attached umbilical cord after childbirth[WP].
