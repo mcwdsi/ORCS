@@ -2,13 +2,13 @@
 ![Build Status](https://github.com/dillerm/ORCS/workflows/CI/badge.svg)
 # Ontology for Representing CDM Semantics
 
-This ontology... YOUR DESCRIPTION HERE
+The Ontology for Representing CDM Semantics (ORCS) is an application ontology that was developed to transform common-data-model-based data into ontologically-based data such as RDF, RDF*, OWL2, or Referent Tracking tuples.  Although initially developed for such transformations of PCORnet Common Data Model (CDM) based data, ongoing and future work involves other CDMs such as OMOP.
 
 ## Versions
 
 ### Stable release versions
 
-TODO
+[v2021-11-12](https://github.com/ufbmi/ORCS/releases/tag/v2021-11-12)
 
 ### Editors' version
 
