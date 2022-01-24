@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+
+  
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-core_import.owl" uri="imports/ro-core_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-core_import.obo" uri="imports/ro-core_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-el-constraints_import.owl" uri="imports/ro-el-constraints_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-el-constraints_import.obo" uri="imports/ro-el-constraints_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-annotations_import.owl" uri="imports/ro-annotations_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-annotations_import.obo" uri="imports/ro-annotations_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-generated-axioms_import.owl" uri="imports/ro-generated-axioms_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-generated-axioms_import.obo" uri="imports/ro-generated-axioms_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-rohom_import.owl" uri="imports/ro-rohom_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-rohom_import.obo" uri="imports/ro-rohom_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-temporal-constraints_import.owl" uri="imports/ro-temporal-constraints_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/ro-temporal-constraints_import.obo" uri="imports/ro-temporal-constraints_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/omrse_import.owl" uri="imports/omrse_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/omrse_import.obo" uri="imports/omrse_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/bfo_import.obo" uri="imports/bfo_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/pno_import.owl" uri="imports/pno_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/pno_import.obo" uri="imports/pno_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/d-acts_import.owl" uri="imports/d-acts_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/orcs/imports/d-acts_import.obo" uri="imports/d-acts_import.obo"/>
+  
+
+
+  
+
+</group>
+</catalog>
