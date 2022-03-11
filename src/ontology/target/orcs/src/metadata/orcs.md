@@ -3,10 +3,10 @@ layout: ontology_detail
 id: orcs
 title: Ontology for Representing CDM Semantics
 jobs:
-  - id: https://travis-ci.org/dillerm/False
+  - id: https://travis-ci.org/dillerm/ORCS
     type: travis-ci
 build:
-  checkout: git clone https://github.com/dillerm/False.git
+  checkout: git clone https://github.com/dillerm/ORCS.git
   system: git
   path: "."
 contact:
@@ -15,7 +15,7 @@ contact:
   github: 
 description: Ontology for Representing CDM Semantics is an ontology...
 domain: stuff
-homepage: https://github.com/dillerm/False
+homepage: https://github.com/dillerm/ORCS
 products:
   - id: orcs.owl
     name: "Ontology for Representing CDM Semantics main release in OWL format"
@@ -41,7 +41,7 @@ dependencies:
 - id: pno
 - id: d-acts
 
-tracker: https://github.com/dillerm/False/issues
+tracker: https://github.com/dillerm/ORCS/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/
   label: CC-BY
