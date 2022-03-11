@@ -4,8 +4,8 @@ idspace: ORCS
 base_url: /obo/orcs
 
 products:
-- orcs.owl: https://raw.githubusercontent.com/dillerm/False/main/orcs.owl
-- orcs.obo: https://raw.githubusercontent.com/dillerm/False/main/orcs.obo
+- orcs.owl: https://raw.githubusercontent.com/dillerm/ORCS/main/orcs.owl
+- orcs.obo: https://raw.githubusercontent.com/dillerm/ORCS/main/orcs.obo
 
 term_browser: ontobee
 example_terms:
@@ -14,14 +14,14 @@ example_terms:
 entries:
 
 - prefix: /releases/
-  replacement: https://raw.githubusercontent.com/dillerm/False/v
+  replacement: https://raw.githubusercontent.com/dillerm/ORCS/v
 
 - prefix: /tracker/
-  replacement: https://github.com/dillerm/False/issues
+  replacement: https://github.com/dillerm/ORCS/issues
 
 - prefix: /about/
   replacement: http://www.ontobee.org/ontology/ORCS?iri=http://purl.obolibrary.org/obo/
 
 ## generic fall-through, serve direct from github by default
 - prefix: /
-  replacement: https://raw.githubusercontent.com/dillerm/False/main/
+  replacement: https://raw.githubusercontent.com/dillerm/ORCS/main/

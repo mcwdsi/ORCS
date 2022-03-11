@@ -1,5 +1,5 @@
 
-![Build Status](https://github.com/dillerm/False/workflows/CI/badge.svg)
+![Build Status](https://github.com/dillerm/ORCS/workflows/CI/badge.svg)
 # Ontology for Representing CDM Semantics
 
 Description: None
@@ -22,7 +22,7 @@ Editors of this ontology should use the edit version, [src/ontology/orcs-edit.ow
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/dillerm/False/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/dillerm/ORCS/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 
